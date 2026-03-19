@@ -1,5 +1,7 @@
 # Business Intelligence - Trabalho
 
+### Relatório de Faturas de Cartões
+
 ### Campos Utilizados
 
 - <u>nome e final do cartão</u>  
@@ -15,10 +17,10 @@ ao separar os gastos por categoria fica mais fácil compreender os dados conform
 o principal campo da análise de dados, já que com ele serão feitos os cálculos dos gastos especificados
 
 ### <u>Perguntas de Negócio</u>  
-> total de transações por categoria
-> total de transações por usuário
-> total de parcelas únicas
-> total de parcelas únicas por usuário
+> total de transações por categoria  
+> total de transações por usuário  
+> total de parcelas únicas  
+> total de parcelas únicas por usuário  
 > quais categorias tiveram mais gastos por mês/bimestre/semestre  
 > quais categorias tiveram menos gastos por mês/bimestre/semestre  
 > evolução mensal dos gastos  
