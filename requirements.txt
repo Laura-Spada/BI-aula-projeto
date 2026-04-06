@@ -1,4 +1,6 @@
 pandas
 sqlalchemy
 
+
 # sqlite viwer -> extensão vscode
+# jupyter -> extensão vscode
