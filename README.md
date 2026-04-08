@@ -2,6 +2,9 @@
 
 ### Relatório de Faturas de Cartões
 
+- <u>Objetivo do trabalho</u>  
+o objetivo do trabalho consiste em mostrar como a estruturação e análise de dados de forma visual podem facilitar na compreensão e tomada de decisões usando ETL e PowerBI.
+
 ### Campos Utilizados
 
 - <u>nome e final do cartão</u>  
@@ -13,7 +16,7 @@ importante já que elas irão dar a partida na análise dos dados, sendo separad
 - <u>categoria e descrição</u>  
 ao separar os gastos por categoria fica mais fácil compreender os dados conforme as prioridades e necessidades do usuário
 
-- <u>valor</u>  
+- <u>valores</u>  
 o principal campo da análise de dados, já que com ele serão feitos os cálculos dos gastos especificados
 
 #
@@ -24,7 +27,7 @@ o principal campo da análise de dados, já que com ele serão feitos os cálcul
 
 #
 
-### Estrutura no SQL
+### Estrutura do Data Warehouse no SQL
 
 ```
 -- =========================
@@ -106,8 +109,7 @@ CREATE TABLE fato_transacao (
 
 ### <u>Perguntas de Negócio</u>  
 > Quanto foi gasto por mês?  
-> Em qual categoria os usuários gastam mais?  
-> Qual categoria tem mais transações?  
+> Em qual categoria os usuários gastam mais?   
 > Qual porcentagem do gasto total é de cada categoria?  
 > Evolução mensal dos gastos  
 > Contagem de compras parceladas e compras à vista  
@@ -129,4 +131,3 @@ CREATE TABLE fato_transacao (
 ### Run
 
 - python etl_papeline.py
-
